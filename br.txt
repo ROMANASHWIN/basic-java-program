@@ -1,0 +1,11 @@
+import java.io.*;
+class add
+{
+    public static void main(String args[])
+    {
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        int num1=34,num2=45;
+        int total=num1+num2;
+        System.out.println("total:"+total);
+    }
+}
